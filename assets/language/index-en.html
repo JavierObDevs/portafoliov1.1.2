@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-mode">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Obando</title>
+    <link rel="icon" href="/assets/img/svg/logo-jo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- Modulos mios -->
+    <script src="/assets/js/components/scrollreveal.js"></script>
+    <script type="module" src="/assets/js/main.js" defer></script>
+
+   
+
+<!-- modulo emailJS  -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+          emailjs.init({
+            publicKey: "1J4IlrLiAoMPJ1yZv",
+          });
+        })();
+    </script>
+
+    
+</head>
+
+
+<body>
+
+    <!-- ANIMATION CURSOR -->
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+<!-- END ANIMATION CURSOR -->
+<!-- HEADER -->
+
+<header class="hero" id="hero">
+<!-- NAV HERO -->
+<nav class="nav">
+    <div class="buttons-nav">
+        
+        
+        
+        <div class="toggle-dm">
+            <img class="sun" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBzdHlsZT0iZmlsbDojRkZBNjAwOyIgZD0iTTUwNy44MzQsMzAxLjYwOGwtNTQuNzY5LTQ4LjMxMmw1Mi44MzItNTAuMzk5YzEuOTQxLTEuODUyLDIuNzQtNC41OTEsMi4wOTktNy4xODkgIGMtMC42NDItMi41OTctMi42MjktNC42NTUtNS4yMTEtNS40MDFsLTcwLjMxNi0yMC4yOTJsMjUuOTg4LTY4LjA1NmMwLjk1NS0yLjUsMC40OTUtNS4zMTYtMS4yMDQtNy4zODkgIGMtMS43LTIuMDcyLTQuMzgzLTMuMDg1LTcuMDM4LTIuNjU3bC03Mi4yNzQsMTEuNjUybC01Ljg3OC03Mi41NjFjLTAuMjE2LTIuNjY2LTEuODQ2LTUuMDE1LTQuMjc1LTYuMTYxICBjLTIuNDI5LTEuMTQ2LTUuMjkxLTAuOTE3LTcuNTA0LDAuNjAxbC02MC4yNjYsNDEuMzQyTDI2My40MDksMy43NDJDMjYyLjA2NCwxLjQyNiwyNTkuNTc5LDAsMjU2Ljg4OSwwICBjLTIuNjksMC01LjE3NCwxLjQyNi02LjUxOSwzLjc0MkwyMDguMzQ3LDc2LjExbC03Mi42OS00MS45NTNjLTIuMzI3LTEuMzQzLTUuMTk3LTEuMzQ5LTcuNTI4LTAuMDE4ICBjLTIuMzMzLDEuMzMxLTMuNzczLDMuNzk5LTMuNzgsNi40NzNsLTAuMTc2LDcyLjc5NWwtNzIuOTY1LTYuMDE0Yy0yLjY3NS0wLjIyLTUuMjc1LDAuOTk3LTYuODA3LDMuMTk0ICBjLTEuNTMzLDIuMTk3LTEuNzcxLDUuMDQxLTAuNjIyLDcuNDU5bDMxLjI0Miw2NS44MzVMNi41MDgsMjA5LjU2MmMtMi41MTYsMC45NDMtNC4zMzUsMy4xNS00Ljc3Myw1Ljc4OSAgYy0wLjQzOCwyLjYzOCwwLjU3NSw1LjMwOCwyLjY1Niw3LjAwM2w1Ni42MTksNDYuMTUybC01MC44MTMsNTIuNDFjLTEuODY2LDEuOTI1LTIuNTU5LDQuNjk0LTEuODE2LDcuMjY0ICBjMC43NDQsMi41NywyLjgxLDQuNTUsNS40MTksNS4xOTRsNzEuMDU1LDE3LjU1MUw2MS41Niw0MTkuOTM2Yy0wLjg1NiwyLjUzNS0wLjI4Niw1LjMzMSwxLjQ5NCw3LjMzNiAgYzEuNzgxLDIuMDA1LDQuNTAyLDIuOTEzLDcuMTM3LDIuMzgybDcxLjc2LTE0LjQ0M2w4LjcyMSw3Mi4yNzhjMC4zMTksMi42NTUsMi4wNDEsNC45MzgsNC41MTMsNS45OSAgYzIuNDc0LDEuMDUyLDUuMzIzLDAuNzEyLDcuNDc1LTAuODkxbDU4LjU5Ni00My42NDdsMzkuMDU1LDU5LjU2NmMxLjM4MiwyLjE3OSwzLjc4OSwzLjQ5Miw2LjM2NywzLjQ5MiAgYzAuMDk4LDAsMC4xOTYtMC4wMDIsMC4yOTUtMC4wMDZjMi42ODctMC4xMDQsNS4xMTUtMS42MjYsNi4zNjgtMy45OTJsMzQuMTA3LTYyLjQwNWw2MS44MzksMzguOTc0ICBjMi4yNzMsMS40MzIsNS4xMzcsMS41NSw3LjUyMiwwLjMxYzIuMzgyLTEuMjQsMy45MTktMy42NSw0LjAzLTYuMzIybDMuMDMxLTcyLjczNGw3Mi42NzQsOC44NGMyLjY2NCwwLjMyNCw1LjMxLTAuNzkxLDYuOTI4LTIuOTI3ICBjMS42MTgtMi4xMzcsMS45NjYtNC45NjksMC45MTQtNy40M2wtMjguNjM2LTY2Ljk5N2w2OS40NjUtMjMuMDAzYzIuNTUyLTAuODQ1LDQuNDU2LTIuOTc5LDQuOTk3LTUuNTk5ICBDNTEwLjc1MiwzMDYuMDksNTA5Ljg0NSwzMDMuMzgzLDUwNy44MzQsMzAxLjYwOHoiLz4KPGVsbGlwc2Ugc3R5bGU9ImZpbGw6I0ZGREIyRDsiIGN4PSIyNTQuMzUiIGN5PSIyNTQuNjkxIiByeD0iMTU1LjA2OSIgcnk9IjE1NC45NDkiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQ0EwMDsiIGQ9Ik0yNTQuMzU0LDk5Ljc0M2MtMy44ODQsMC03LjczMiwwLjE0Ny0xMS41NDMsMC40MjhjODAuMjUsNS45MDEsMTQzLjUyNSw3Mi44MjUsMTQzLjUyNSwxNTQuNTIxICBjMCw4MS42OTUtNjMuMjc1LDE0OC42MTktMTQzLjUyNSwxNTQuNTIxYzMuODExLDAuMjgsNy42NiwwLjQyOCwxMS41NDMsMC40MjhjODUuNjQxLDAsMTU1LjA2OC02OS4zNzMsMTU1LjA2OC0xNTQuOTQ4ICBDNDA5LjQyMiwxNjkuMTE2LDMzOS45OTUsOTkuNzQzLDI1NC4zNTQsOTkuNzQzeiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+            <img class="moon hide" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5OS43MTIgNDk5LjcxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDk5LjcxMiA0OTkuNzEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRDkzQjsiIGQ9Ik0xNDYuODgsMzc1LjUyOGMxMjYuMjcyLDAsMjI4LjYyNC0xMDIuMzY4LDIyOC42MjQtMjI4LjY0YzAtNTUuOTUyLTIwLjE2LTEwNy4xMzYtNTMuNTItMTQ2Ljg4ICBDNDI1LjA1NiwzMy4wOTYsNDk5LjY5NiwxMjkuNjQsNDk5LjY5NiwyNDMuNzA0YzAsMTQxLjM5Mi0xMTQuNjA4LDI1Ni0yNTYsMjU2Yy0xMTQuMDY0LDAtMjEwLjYwOC03NC42NC0yNDMuNjk2LTE3Ny43MTIgIEMzOS43NDQsMzU1LjM2OCw5MC45NDQsMzc1LjUyOCwxNDYuODgsMzc1LjUyOHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0Y0QzUzNDsiIGQ9Ik00MDEuOTIsNDIuNzc2YzM0LjI0LDQzLjUwNCw1NC44MTYsOTguMjcyLDU0LjgxNiwxNTcuOTUyYzAsMTQxLjM5Mi0xMTQuNjA4LDI1Ni0yNTYsMjU2ICBjLTU5LjY4LDAtMTE0LjQ0OC0yMC41NzYtMTU3Ljk1Mi01NC44MTZjNDYuODQ4LDU5LjQ3MiwxMTkuMzQ0LDk3Ljc5MiwyMDAuOTI4LDk3Ljc5MmMxNDEuMzkyLDAsMjU2LTExNC42MDgsMjU2LTI1NiAgQzQ5OS43MTIsMTYyLjEyLDQ2MS4zOTIsODkuNjQsNDAxLjkyLDQyLjc3NnoiLz4KPGc+Cgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRkZEODNCOyIgcG9pbnRzPSIxMjguMTI4LDk5Ljk0NCAxNTQuNDk2LDE1My40IDIxMy40NzIsMTYxLjk2IDE3MC44LDIwMy41NiAxODAuODY0LDI2Mi4yOTYgICAgMTI4LjEyOCwyMzQuNTY4IDc1LjM3NiwyNjIuMjk2IDg1LjQ0LDIwMy41NiA0Mi43NjgsMTYxLjk2IDEwMS43NDQsMTUzLjQgICIvPgoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0ZGRDgzQjsiIHBvaW50cz0iMjc2Ljg2NCw4Mi44NCAyOTAuNTI4LDExMC41NTIgMzIxLjEwNCwxMTQuOTg0IDI5OC45NzYsMTM2LjU1MiAzMDQuMjA4LDE2Ni45ODQgICAgMjc2Ljg2NCwxNTIuNjE2IDI0OS41MiwxNjYuOTg0IDI1NC43NTIsMTM2LjU1MiAyMzIuNjI0LDExNC45ODQgMjYzLjIsMTEwLjU1MiAgIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="  />
+        </div>
+        
+        </a>
+        <a class="language" href="/index.html">
+            <img class="language-icon" src="https://images.vexels.com/media/users/3/164599/isolated/preview/ce858535b77f22068049aca2457e59ad-circulo-de-icono-de-idioma-de-bandera-de-espana.png" alt="usa icon" >
+        </a>
+    </div>
+    <div class="hambuerger-menu">
+        <a href="#links" class="nav_target">
+            <i class='bx bx-menu btn__open nav-icon'></i>
+        </a>
+        
+        <ul class="links-nav" id="links">
+            <div class="close-menu">
+                <a href="#close"><i class='bx bx-x-circle btn__close xbar__icon'></i></a>
+            </div>
+            <li class="button button-home"><a href="#hero">Main</a></li>
+            <li class="button button-about-me"><a href="#about-me">About me</a></li>
+            <li class="button button-proyects"><a href="#proyects">Projects</a></li>
+            <li class="button button-skills"><a href="#skills">Skills</a></li>
+            <li class="button button-contact"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- HERO -->
+
+<div class="main-page">
+    
+    <div class="logo-jav">
+        <img src="/assets/img/svg/logo-jo.svg" alt="Image of Javier Obando">
+    </div>
+    <div class="content-text-and-buttons">
+        <div class="text-and-buttons">
+            <div class="text-container">
+                <h2 class="hello">Hi, I am</h2>
+                <h1 class="name">Javier Obando</h1>
+                <h3 class="description">Designer & full Stack Developer</h3>
+            </div>
+        </div>
+        <div class="button social-media">
+            <div class="containerbtn">
+                <a class="button-github" href="https://github.com/JansObb" target="_blank">
+                    <i class='bx bxl-github'></i>
+                    GitHub
+                </a>
+            </div>
+            <div class="containerbtn">
+                <a class="button-linkedin"
+                    href="https://www.linkedin.com/in/javier-obando/"
+                    target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                    LinkedIn
+                </a>
+            </div>
+            <div class="containerbtn">
+                <a class="button-download-cv" href="/assets/download/CV JAVIER INGLES 2024.pdf" download="CV Javier Obando">
+                    <i class='bx bxs-file-pdf'></i>
+                    Download CV
+                </a>
+            </div>
+            <div class="containerbtn">
+                <a class="button-whastapp" href="https://api.whatsapp.com/send?phone=573238523331"
+                    target="_blank">
+                    <i class='bx bxl-whatsapp'></i>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<!-- MAIN -->
+<main class="main">
+<!-- FLOAT COMENT -->
+<div class="float-comment">
+    <p class="comment">
+        I like to do <span class="text-border">professional</span> and interactive things with code, I also <span class="text-border">design</span> & <span class="text-border">talk</span> about different topics.
+    </p>     
+</div>
+<!-- NAV STIKY -->
+<nav class="nav-stiky">
+    <img class="logo-nav" src="/assets/img/svg/logo-jo.svg" alt="Logo Javier Obando">
+    <a href="#links" class="nav_target_stiky">
+        <i class='bx bx-menu btn__open nav-icon-stiky'></i>
+    </a>
+    <div class="close-menu-stiky">
+        <a href="#close"><i class='bx bx-x-circle btn__close xbar__icon_stiky'></i></a>
+    </div>
+    <ul class="links-nav-stiky" id="links">
+        <li class="button button-home"><a href="#hero">Main</a></li>
+        <li class="button button-about-me"><a href="#about-me">About me</a></li>
+        <li class="button button-proyects"><a href="#projects">Projects</a></li>
+        <li class="button button-skills"><a href="#skills">Skills</a></li>
+        <li class="button button-contact"><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- ABOUT ME -->
+<section class="about-me" id="about-me">
+    <div>
+        <h2 class=" title text-about-me">About me</h2>
+        <p>
+            I consider that I possess exceptional creativity, always in constant search of developing neat, attractive and innovative experiences.
+                    <br>
+                    <br>
+                    My career has been focused on the field of advertising and marketing, which has polished my graphic skills and drives me to continually complement them.
+                    <br>
+                    <br>
+                    I feel a constant enthusiasm to explore new projects and roles, always oriented to achieve improvements both personally and for my environment, which includes family, friends and my work team, including my superiors. My perpetual desire is to keep learning, and I am eager to absorb knowledge from everyone who contributes something positive to my growth.
+        </p>
+    </div>
+    <div class="card-grid">
+        <a class="card" href="https://drive.google.com/file/d/1YLMf8J2Ws-Ifib36bpzEW9Jxc3qa_bvM/view?usp=drive_link" target="_blank">
+            <div class="card__background"
+                style="background-image: url(/assets/img/other/preview3.png)"></div>
+            <div class="card__content">
+                <p class="card__category">Desing</p>
+                <h3 class="card__heading">Logotipo Megafish</h3>
+            </div>
+        </a>
+        <a class="card" href="https://drive.google.com/file/d/1WvQyaCyAqboUFLg2QsOiz94G0z_sLH6W/view?usp=drive_link" target="_blank">
+            <div class="card__background"
+                style="background-image: url(/assets/img/other/preview2.png)">
+            </div>
+            <div class="card__content">
+                <p class="card__category">Desing</p>
+                <h3 class="card__heading">Logotipo Tuplataforma.co</h3>
+            </div>
+        </a>
+        <a class="card" href="https://drive.google.com/file/d/1fNFG27y1sa6ifDiL4H-4-vo8HJEOjomb/view?usp=drive_link" target="_blank">
+            <div class="card__background" style="background-image: url(/assets/img/other/preview1.png)">
+            </div>
+            <div class="card__content">
+                <p class="card__category">Desing</p>
+                <h3 class="card__heading">Image Creation</h3>
+            </div>
+        </a>
+        <a class="card" href="https://www.youtube.com/watch?v=OvrsoVjHm-0" target="_blank">
+            <div class="card__background" style="background-image: url(/assets/img/other/preview4.png)">
+            </div>
+            <div class="card__content">
+                <p class="card__category"> Video Editing</p>
+                <h3 class="card__heading">Video for youtube channel</h3>
+            </div>
+        </a>
+        <h3 class="text-soft-skills">Design work</h3>
+    </div>
+</section>
+<!-- PROYECTS -->
+<div class="projects" id="projects">
+    <h2 class="title text-projects">Projects</h2>
+    <div class="pj-card-grid">
+        <a class="pj-card" href="https://marvel-fortune-cookie.netlify.app/" target="_blank">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/fortune-cookie.png)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Fortune cookie</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+                <p class="resume">
+                    This avengers fortune cookie will give you a random phrase for every try, what are you waiting for your favorite super hero to say something today?
+                </p>
+            </div>
+        </a>
+        <a class="pj-card" href="#">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/construction.jpg)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Project name</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+            </div>
+        </a>
+        <a class="pj-card" href="#">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/construction.jpg)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Project name</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+            </div>
+        </a>
+        <a class="pj-card" href="#">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/construction.jpg)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Project name</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+            </div>
+        </a>
+        <a class="pj-card" href="#">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/construction.jpg)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Project name</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+            </div>
+        </a>
+        <a class="pj-card" href="#">
+            <div class="pj-card__background" style="background-image: url(/assets/img/other/construction.jpg)">
+            </div>
+            <div class="pj-card__content">
+                <h3 class="pj-card__heading">Project name</h3>
+                <div class="pj-card__tech">
+                    <p class="pj-card__category">React</p>
+                    <p class="pj-card__category">html</p>
+                    <p class="pj-card__category">css</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <a class="button button-other-projects" href="#" target="_blank">Other projects</a>
+</div>
+<!-- SKILL SET -->
+<section class="skills" id="skills">
+    <h2 class="title text-skills">
+        Skills
+    </h2>
+    <p>
+        The skills, tools and technologies I use to bring your products to life:
+    </p>
+    <div class="Logos">
+        <img class="logos-svg" src="/assets/img/svg/html.svg" alt="Logotipo HTML">
+        <img class="logos-svg" src="/assets/img/svg/css.svg" alt="Logotipo CSS">
+        <img class="logos-svg" src="/assets/img/svg/react.svg" alt="Logotipo React">
+        <img class="logos-svg" src="/assets/img/svg/javascript.svg" alt="Logotipo JavaScript">
+        <img class="logos-svg" src="/assets/img/svg/git.svg" alt="Logotipo Git">
+        <img class="logos-svg" src="/assets/img/svg/node-js.svg" alt="Logotipo Node.js">
+        <img class="logos-svg" src="/assets/img/svg/python.svg" alt="Logotipo Python">
+        <img class="logos-svg" src="/assets/img/svg/illustrator.svg" alt="Logotipo Adobe Ilustrator">
+        <img class="logos-svg" src="/assets/img/svg/photoshop.svg"alt="Logotipo Adobe Photoshop">
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="contact section">
+<h2 class="section__title">Contact</h2>
+<div class="image-jav">
+    <img src="/assets/img/svg/img-javier.svg" alt="Imagen Javier Obando">
+</div> 
+<div class="contact__form">
+    
+    <form id="form" class="contact__form-container">
+      <h3 class="contact__form-title">Send message</h3>
+      <div class="contact__form-group">
+        <label for="name" class="contact__form-label">Name</label>
+        <input type="text" id="name" name="name" class="contact__form-input" />
+      </div>
+
+      <div class="contact__form-group">
+        <label for="email" class="contact__form-label">Email</label>
+        <input type="email" id="email" name="email" class="contact__form-input" />
+      </div>
+
+      <div class="contact__form-group">
+        <label for="message" class="contact__form-label">Message</label>
+        <textarea id="message" name="message" cols="10" rows="6" class="contact__form-input"></textarea>
+      </div>
+        <dialog id="modal">
+            Form successfully submitted!
+            <button type="reset" id="btn_close-modal">Close</button>
+        </dialog>
+
+        <button type="submit" class="btn contact__form-button">
+            Send
+        </button>
+        
+    </form>
+  </div>
+</div>
+</section>
+</main>
+<!-- FLOAT BUTTON CONTACT -->
+<a href="#contact" class="f-btn-mail">
+<i class='bx bx-envelope' ></i>
+</a>
+<!-- FLOAT BUTTON WHATSAPP -->
+<a href="https://api.whatsapp.com/send?phone=573238523331" class="f-btn-wsp" target="_blank">
+<i class='bx bxl-whatsapp'></i>
+</a> 
+<!-- FOOTER -->
+<footer>
+<p class="footer-copy"> &copy;This website was created by "Javier Obando". </p>
+</footer>
+
+<script src="/assets/js/helpers/send-email.js" type="module"></script>
+<script src="/assets/js/components/reveal.js"
+type="module"></script>
+
+</body>
+</html>
