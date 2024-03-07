@@ -761,12 +761,16 @@ p {
   padding: var(--spacing-l);
   position: absolute;
   top: 0;
-  /* visibility: hidden; */
+  
+  
 }
 
-.pj-card__content{
-  display: none;
-}
+
+
+
+.pj-card__content:hover{
+  
+} 
 
 .pj-card__category {
   width: fit-content;
