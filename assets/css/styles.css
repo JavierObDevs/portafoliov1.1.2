@@ -767,11 +767,6 @@ p {
 
 
 
-
-.pj-card__content:hover{
-  
-} 
-
 .pj-card__category {
   width: fit-content;
   color: var(--c-orange);
